@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <!--<UserSecretsId>aspnet-PolicyBasedAuthorization-5D35BBC9-DDD1-4A85-A517-3393708D3526</UserSecretsId>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.6" />-->
+    <!--<PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.6" />-->
+    <!--<PackageReference Include="Microsoft.Identity.Web" Version="1.1.0" />-->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.1.4" />
+  </ItemGroup>
+
+</Project>
